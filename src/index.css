@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+h2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ca3434;
+}
+
+h4 {
+  font-family: "Caveat", cursive;
+  font-style: normal;
+  font-size: 2rem;
+}
+.not-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.not404 {
+  width: 500px;
+}
+
+.logoNav {
+  color: aliceblue;
+  margin-top: 10px;
+  
+}
+
+.logo {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-right: 5px;
+}
+
+.icon {
+  width: 30px;
+  margin: 0 0 0 15px;
+}
+
+.imgHome {
+  width: 300px;
+  margin: 50px;
+}
+
+.text-center {
+  margin-top: 100px;
+}
+
+.back {
+  background-image: url(../public/img/color.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+
+
+}
+
+.container-home{
+  text-align: center;
+	padding: 30px;
+  padding-top: 100px;
+	
+	
+}
+
+.container-contact{
+  max-width: 720px;
+	margin: 50px auto;
+	padding: 2rem;
+	background-color: #f7d3d3;
+	border: 1px solid #af297b;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.form-container h1 {
+	font-size: 24px;
+	color: #9d048b;
+  text-align: center;
+}
+
+.form-group {
+	margin: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #a900b8;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
